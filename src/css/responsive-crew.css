@@ -1,0 +1,368 @@
+@media(max-width: 768px) {
+    body {
+        background-image: url(../images/background-crew-mobile.jpg);
+        background-repeat: no-repeat;
+        overflow: auto;
+    }
+
+    .header {
+        display: flex;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .hr-header {
+        display: none;
+    }
+    .list-menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100vh;
+        background: linear-gradient(to right, #1C1F2A, #3E4A66);
+        padding: 40px;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .list-menu.active {
+        display: flex;
+    }
+
+    .icon-hamburger {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .list-menu li {
+        padding: 20px;
+        text-align: center;
+    }
+    /* PILOT */
+    .section-pilot {
+
+        margin: 0;
+
+    }
+    .container-pilot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-pilot {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description-pilot{
+        margin: auto;
+    }
+
+    .image-people {
+        width: 150px;
+        margin: 15px 0px 0px 0px;
+    }
+
+
+    /* ENGINEER */
+
+    .section-engineer {
+
+        margin: 0;
+    }
+
+    .container-engineer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-engineer {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .description-crew{
+        margin: auto;
+    }
+
+    /*Commander */
+
+    .section-commander {
+
+        margin: 0;
+
+    }
+
+    .container-commander {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-commander {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description-commander{
+        margin: auto;
+    }
+
+
+    /*Specialist */
+
+    .section-specialist {
+
+        margin: 0;
+
+    }
+
+    .container-specialist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-specialist {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description-specialist{
+        margin: auto;
+    }
+
+
+
+   
+}
+
+
+@media(min-width: 769px) and (max-width: 1024px){
+    body {
+        background-image: url(../images/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        overflow: auto;
+
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .logo {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .hr-header {
+        display: none;
+    }
+
+    .nav {
+        width: auto;
+        max-width: none;
+    }
+
+    .list-menu {
+
+        width: 100%;
+        padding: 15px;
+        margin: auto;
+        font-size: 25px;
+    }
+
+
+
+    .strong-menu {
+        display: none;
+    }
+
+    .icon-hamburger {
+        display: none;
+    }
+
+
+    .section-pilot {
+
+        margin: 0;
+
+    }
+    .container-pilot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-pilot {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-pilot{
+        font-size: 26px;
+    }
+
+    .title-position{
+        font-size: 40px;
+    }
+
+    .name-pilot{
+        font-size: 40px;
+    }
+
+    .description-pilot{
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .image-people {
+        width: 240px;
+        margin: 15px 0px 0px 0px;
+    }
+
+    
+
+    /*Engineer */
+
+    .section-engineer {
+
+        margin: 0;
+    }
+
+    .container-engineer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-engineer {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .description-engineer{
+        margin: auto;
+        font-size: 18px;
+    }
+
+
+    .title-engineer{
+        font-size: 26px;
+    }
+
+   
+
+    .name-engineer{
+        font-size: 40px;
+    }
+
+    /*  COMMANDER */
+    
+
+    .section-commander {
+
+        margin: 0;
+
+    }
+    .container-commander {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-commander {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-commander{
+        font-size: 26px;
+    }
+
+   
+
+    .name-commander{
+        font-size: 40px;
+    }
+
+    .description-commander{
+        margin: auto;
+        font-size: 18px;
+    }
+
+   
+    /* SPECIALIST */
+
+    .section-specialist {
+
+        margin: 0;
+
+    }
+    .container-specialist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .information-specialist {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-specialist{
+        font-size: 26px;
+    }
+
+   
+
+    .name-specialist{
+        font-size: 40px;
+    }
+
+    .description-specialist{
+        margin: auto;
+        font-size: 18px;
+    }
+
+}

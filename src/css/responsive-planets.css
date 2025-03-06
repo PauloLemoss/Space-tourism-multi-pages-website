@@ -1,0 +1,441 @@
+@media(max-width: 768px) {
+    body {
+        background-image: url(../images/background-destination-mobile.jpg);
+        background-repeat: no-repeat;
+
+        overflow: auto;
+
+
+    }
+
+    .header {
+        display: flex;
+        margin: 0;
+        padding: 20px;
+
+    }
+
+    .hr-header {
+        display: none;
+    }
+
+    .list-menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100vh;
+        background: linear-gradient(to right, #1C1F2A, #3E4A66);
+        padding: 40px;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .list-menu.active {
+        display: flex;
+    }
+
+    .icon-hamburger {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .list-menu li {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .section-moon {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-moon {
+        margin: auto;
+
+    }
+
+    .title-destination {
+        font-size: 16px;
+    }
+
+    .image-moon {
+        width: 250px;
+        margin: auto;
+    }
+
+    .destination-planets {
+        margin: auto;
+    }
+
+    .title-moon {
+        font-size: 60px;
+    }
+
+
+    /* MARS */
+
+
+    .section-mars {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-mars {
+        margin: auto;
+    }
+
+    .title-destination {
+        font-size: 16px;
+    }
+
+    .image-mars {
+        width: 250px;
+        margin: auto;
+    }
+
+    .title-mars {
+        font-size: 60px;
+    }
+
+
+
+    /* Europa  */
+
+
+    .section-europa {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-europa {
+        margin: auto;
+    }
+
+
+
+    .title-destination {
+        font-size: 16px;
+    }
+
+    .image-europa {
+        width: 250px;
+        margin: auto;
+    }
+
+    .destination-planets {
+        margin: auto;
+    }
+
+    .title-europa {
+        font-size: 60px;
+    }
+
+    .paragraph-europa {
+        width: 350px;
+        text-align: center;
+    }
+
+
+    /* TITAN  */
+
+    .section-titan {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-titan {
+        margin: auto;
+    }
+
+    .title-destination {
+        font-size: 16px;
+    }
+
+    .image-titan {
+        width: 250px;
+        margin: auto;
+    }
+
+    .destination-planets {
+        margin: auto;
+    }
+
+    .title-titan {
+        font-size: 60px;
+    }
+
+    .paragraph-titan {
+        width: 350px;
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+
+@media(min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: url(../images/background-destination-tablet.jpg);
+        background-repeat: no-repeat;
+        overflow: auto;
+
+    }
+
+
+    .header {
+
+        display: flex;
+
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+
+    }
+
+    .logo {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .hr-header {
+        display: none;
+    }
+
+    .nav {
+        width: auto;
+        max-width: none;
+    }
+
+    .list-menu {
+
+        width: 100%;
+        padding: 15px;
+        margin: auto;
+        font-size: 25px;
+    }
+
+
+
+    .strong-menu {
+        display: none;
+    }
+
+    .icon-hamburger {
+        display: none;
+    }
+
+
+    /* MOON*/
+
+
+    .section-moon {
+        display: flex;
+        flex-direction: column;
+        margin: 70px auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-moon {
+        margin: auto;
+
+    }
+
+
+    .title-destination {
+        font-size: 26px;
+    }
+
+    .image-moon {
+        width: 350px;
+        margin: auto;
+    }
+
+    .list-planets {
+        margin-top: 20px;
+
+    }
+
+    .moon,
+    .mars,
+    .europa,
+    .titan {
+        font-size: 20px;
+    }
+
+    .destination-planets {
+        margin: auto;
+    }
+
+    .moon-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-moon {
+        font-size: 80px;
+    }
+
+    .paragraph-moon {
+        font-size: 18px;
+        width: 600px;
+        line-height: 28px;
+    }
+
+
+    .container-travel-distance {
+        font-size: 20px;
+    }
+
+
+    /*MARS */
+
+    .section-mars {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-mars {
+        margin: auto;
+    }
+
+
+    .image-mars {
+        width: 350px;
+        margin: auto;
+    }
+
+    .list-planets {
+        margin-top: 20px;
+
+    }
+
+    .mars-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-mars {
+        font-size: 80px;
+    }
+
+    .paragraph-mars {
+        font-size: 18px;
+        width: 600px;
+        line-height: 28px;
+    }
+
+
+    /* EUROPA */
+
+    .section-europa {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-europa {
+        margin: auto;
+    }
+
+
+    .image-europa {
+        width: 350px;
+        margin: auto;
+    }
+
+    .list-planets {
+        margin-top: 20px;
+
+    }
+
+    .europa-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-europa {
+        font-size: 80px;
+    }
+
+    .paragraph-europa {
+        font-size: 18px;
+        width: 600px;
+        line-height: 28px;
+    }
+
+
+
+    /* TITAN*/
+
+    .section-titan {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-titan {
+        margin: auto;
+    }
+
+
+    .image-titan {
+        width: 350px;
+        margin: auto;
+    }
+
+    .list-planets {
+        margin-top: 20px;
+
+    }
+
+    .titan-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-titan {
+        font-size: 80px;
+    }
+
+    .paragraph-titan {
+        font-size: 18px;
+        width: 600px;
+        line-height: 28px;
+    }
+
+
+
+}

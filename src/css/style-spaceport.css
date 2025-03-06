@@ -1,0 +1,179 @@
+body{
+    background-image: url(../images/background-technology-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden; 
+}
+.header{
+    display: flex;
+    gap: 40px;
+    padding: 25px;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    position: relative;
+    
+    
+}
+
+.logo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hr-header{
+    width: 500px;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 2;
+    left: 130px;
+}
+.nav{
+    width: 100%;
+    max-width: 820px;
+    
+   
+}
+
+.list-menu{
+    display: flex;
+    background: linear-gradient(to right, #1C1F2A, #3E4A66);
+    justify-content: space-between;
+    padding: 25px;
+    width: 840px;
+    position: relative;
+    z-index: 1;
+    margin-left: 500px;
+   
+   
+
+}
+.list-menu a {
+    display: block;
+}
+
+.list-home{
+    color: #D0D6F9;
+    padding: 15px;
+}
+
+
+.strong-menu{
+    color: white;
+}
+
+.section-spaceport{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-left: 100px;
+}
+
+.title-spaceport{
+    font-family: 'Prata', serif;
+    letter-spacing: 4px;  
+       margin-bottom: 70px;
+       font-size: 16px;
+}
+
+.strong-title-spaceport{
+    opacity: 0.3;
+}
+
+.container-alignment{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.list-numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-size: 30px;
+  
+}
+
+.list-numbers li{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.list-numbers a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    transition: 0.3s; 
+}
+
+
+
+
+.description-spaceport{
+    display: flex;
+   
+}
+
+.description-alignment{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-terminology{
+    font-family: "Roboto Condensed", serif;
+    letter-spacing: 4px;
+    font-size: 12px;  
+    opacity: 0.6;
+}
+
+.title-launch-spaceport{
+    font-family: 'Prata', serif;
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+
+.paragraph-spaceport{
+    width: 100%;
+    max-width:439px;
+    
+    font-family: "Roboto Condensed", serif;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.image-spaceport{
+    width: 400px;
+    margin-left: 150px;
+     margin-top: -80px;
+}
+
+
+.number-1:hover,.number-2:hover, .number-3:hover{
+    color: black;
+    background-color: white;
+}
+
+.icon-hamburger{
+    display: none;
+}

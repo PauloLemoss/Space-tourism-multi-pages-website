@@ -1,0 +1,429 @@
+@media(max-width: 768px) {
+    body {
+        background-image: url(../images/background-technology-mobile.jpg);
+        background-repeat: no-repeat;
+        overflow: auto;
+    }
+
+    .header {
+        display: flex;
+        margin: 0;
+        padding: 25px;
+    }
+
+    .hr-header {
+        display: none;
+    }
+
+    .list-menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100vh;
+        background: linear-gradient(to right, #1C1F2A, #3E4A66);
+        padding: 40px;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .list-menu.active {
+        display: flex;
+    }
+
+    .icon-hamburger {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .list-menu li {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .section-technology {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .title-tecnology {
+        margin-left: 20px;
+    }
+
+
+    .container-alignment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .numbers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    .list-numbers {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .list-numbers li {
+        list-style: none;
+    }
+
+    .list-numbers a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .description-launch-vehicle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .description-alignment {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .title-launch-vehicle {
+        font-size: 25px;
+        margin: 0;
+
+    }
+
+    .paragraph-launch-vehicle {
+        width: 350px;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .image-vehicle {
+
+        width: 150px;
+        margin: 15px 0px 0px 0px;
+    }
+
+
+
+
+    /* SPACE PORT */
+
+
+    .section-spaceport {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .title-spaceport {
+        margin-left: 20px;
+    }
+
+
+    .description-spaceport {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .title-launch-spaceport {
+        font-size: 25px;
+        margin: 0;
+
+    }
+
+    .paragraph-spaceport {
+        width: 350px;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .image-spaceport {
+        width: 150px;
+        margin: 15px 0px 0px 0px;
+    }
+
+
+    /*  CAPSULE  */
+
+    .section-capsule {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .title-spacecapsule {
+        margin-left: 20px;
+    }
+
+    .description-capsule {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .title-capsule {
+        font-size: 25px;
+        margin: 0;
+
+    }
+
+    .paragraph-capsule {
+        width: 350px;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .image-capsule {
+        width: 150px;
+        margin: 15px 0px 0px 0px;
+    }
+
+
+
+}
+
+
+@media(min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: url(../images/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        overflow: auto;
+
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .logo {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .hr-header {
+        display: none;
+    }
+
+    .nav {
+        width: auto;
+        max-width: none;
+    }
+
+    .list-menu {
+
+        width: 100%;
+        padding: 15px;
+        margin: auto;
+        font-size: 25px;
+    }
+
+    .strong-menu {
+        display: none;
+    }
+
+    .icon-hamburger {
+        display: none;
+    }
+
+    .section-technology {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .container-technology {
+
+        margin-left: 80px;
+    }
+
+    .title-tecnology {
+
+        font-size: 25px;
+
+    }
+
+    .title-terminology {
+        font-size: 20px;
+    }
+
+
+    .description-launch-vehicle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .description-alignment {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .title-launch-vehicle {
+        font-size: 30px;
+        margin: 0;
+
+    }
+
+    .paragraph-launch-vehicle {
+        width: 350px;
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+
+    }
+
+    .image-vehicle {
+
+        width: 240px;
+        margin: 15px 0px 0px 0px;
+    }
+
+    .list-numbers {
+        gap: 50px;
+    }
+
+
+    /* SPACE-PORT */
+
+    .section-spaceport {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .container-spaceport {
+
+        margin-left: 80px;
+    }
+
+    .title-spaceport {
+
+        font-size: 25px;
+
+    }
+
+    .description-spaceport {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .title-launch-spaceport {
+        font-size: 30px;
+        margin: 0;
+
+    }
+
+    .paragraph-spaceport {
+        width: 350px;
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+
+    }
+
+    .image-spaceport {
+        width: 240px;
+        margin: 15px 0px 0px 0px;
+    }
+
+
+    /* CAPSULE */
+
+    .section-capsule {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .container-capsule {
+
+        margin-left: 80px;
+    }
+
+    .title-spacecapsule {
+
+        font-size: 25px;
+
+    }
+
+    .description-capsule {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .title-capsule {
+        font-size: 30px;
+        margin: 0;
+
+    }
+
+    .paragraph-capsule {
+        width: 350px;
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+
+    }
+
+    .image-capsule {
+        width: 240px;
+        margin: 15px 0px 0px 0px;
+    }
+}
