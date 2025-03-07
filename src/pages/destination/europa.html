@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpacePort</title>
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style-spaceport.css">
-    <link rel="stylesheet" href="src/css/responsive-technology.css">
+    <title>Europa</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/destination/style-europa.css">
+    <link rel="stylesheet" href="../../css/destination/responsive-planets.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,53 +20,66 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Prata&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <img class="logo" src="./src/images/logo.svg" alt="logo-page">
+        <img class="logo" src="../../images/logo.svg" alt="logo-page">
         <hr class="hr-header">
+
         <nav class="nav">
             <ul class="list-menu">
-                <li class="list-home"><a href="index.html"><strong class="strong-menu">00</strong> HOME</a></li>
-                <li class="list-home"><a href="moon.html"><strong class="strong-menu">01</strong> DESTINATION</a></li>
-                <li class="list-home"><a href="pilot.html"><strong class="strong-menu">02</strong> CREW</a></li>
-                <li class="list-home"><a href="technology.html"><strong class="strong-menu">03</strong> TECHNOLOGY</a>
+                <li class="list-home"><a href="/index.html"><strong class="strong-menu">00</strong> HOME</a></li>
+                <li class="list-home"><a href="/src/pages//destination/moon.html"><strong class="strong-menu">01</strong> DESTINATION</a></li>
+                <li class="list-home"><a href="/src/pages/crew/pilot.html"><strong class="strong-menu">02</strong> CREW</a></li>
+                <li class="list-home"><a href="/src/pages/technology/technology.html"><strong class="strong-menu">03</strong> TECHNOLOGY</a>
                 </li>
             </ul>
-            <img class="icon-hamburger" src="./src/images/icon-hamburger.svg" alt="icon-hamburger">
+            <img class="icon-hamburger" src="../../images/icon-hamburger.svg" alt="icon-hamburger">
         </nav>
+
     </header>
 
-    <section class="section-spaceport">
-        <div class="container-spaceport">
-            <h2 class="title-spaceport"> <strong class="strong-title-spaceport">03</strong> SPACE LAUNCH 101 </h2>
+    <section class="section-europa">
+        <div class="container-europa">
+            <h2 class="title-destination"> <strong>02</strong> PICK YOUR DESTINATION</h1>
+                <img class="image-europa" src="../../images/image-europa.png" alt="image-europa">
         </div>
-        <div class="container-alignment">
-            <div class="numbers">
-                <ul class="list-numbers">
-                    <li><a href="technology.html" class="number-1" data-page="technology.html">1</a></li>
-                    <li><a href="spaceport.html" class="number-2" data-page="spaceport.html">2</a></li>
-                    <li><a href="capsule.html" class="number-3" data-page="capsule.html">3</a></li>
+
+        <div class="destination-planets">
+            <nav class="nav-planets">
+                <ul class="list-planets">
+                    <li> <a href="moon.html" class="moon">MOON</a></li>
+                    <li> <a href="mars.html" class="mars">MARS</a></li>
+                    <li> <a href="europa.html" class="europa">EUROPA</a></li>
+                    <li> <a href="titan.html" class="titan">TITAN</a></li>
                 </ul>
+                </ul>
+            </nav>
+            <div class="europa-information">
+                <h1 class="title-europa">EUROPA</h1>
+                <p class="paragraph-europa">Don’t forget to bring your thermal suit. Beneath Europa’s icy shell lies a
+                    vast ocean, possibly teeming with life. Explore its frozen ridges and marvel at the mysterious
+                    geysers shooting water into space. With a gravity much lower than Earth's, every step feels like an
+                    effortless glide!
+                </p>
             </div>
-            <div class="description-spaceport">
-                <div class="description-alignment">
-                    <h4 class="title-terminology">THE TERMINOLOGY...</h4>
-                    <h1 class="title-launch-spaceport">SPACE PORT</h1>
-                    <p class="paragraph-spaceport"> A spaceport or cosmodrome is a site for launching (or receiving)
-                        spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous
-                        Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for
-                        launch. </p>
+            <hr class="hr-europa">
+
+            <div class="container-travel-distance">
+                <div class="distance-travel">
+                    <h4>AVG. DISTANCE</h4>
+                    <h4>EST. TRAVEL TIME</h4>
                 </div>
-                <img class="image-spaceport" src="./src/images/image-spaceport-portrait.jpg" alt="spaceport">
+                <div class="distance-travel-two">
+                    <h3>968 MIL KM</h3>
+                    <h3> 6 YEARS</h3>
+                </div>
+
+
             </div>
-        </div>
     </section>
-    <script src="index.js"></script>
+    <script src="../../../index.js"></script>
 </body>
 
 </html>

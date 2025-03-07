@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/background-crew-desktop.jpg);
+    background-image: url(../../images/background-crew-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body{
 }
 
 
-.section-pilot{
+.section-commander{
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -81,7 +81,7 @@ body{
  }
  
  
- .title-pilot{
+ .title-commander{
      font-family: 'Prata', serif;
      letter-spacing: 4px;
         /* font-family: 'Barlow Condensed', sans-serif; */
@@ -93,7 +93,7 @@ body{
      opacity: 0.3;
  }
  
- .information-pilot{
+ .information-commander{
     display: flex;
  }
  
@@ -110,13 +110,13 @@ body{
      opacity: 0.3;
  }
  
- .name-pilot{
+ .name-commander{
      font-family: 'Prata', serif;
      letter-spacing: 4px;
      font-size: 30px;
  }
  
- .description-pilot{
+ .description-commander{
      font-family: "Roboto Condensed", serif;
  
      opacity: 0.6;

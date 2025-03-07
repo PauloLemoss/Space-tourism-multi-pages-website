@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/background-destination-desktop.jpg);
+    background-image: url(../../images/background-destination-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,6 @@ body{
     color: white;
     overflow: hidden;
 }
-
 
 .header{
     display: flex;
@@ -72,17 +71,19 @@ body{
     color: white;
 }
 
-.section-moon{
+
+.section-mars{
     display: flex;
 
 }
 
-.container-moon{
+.container-mars{
     display: flex;
     flex-direction: column;
     padding: 25px;
     gap: 40px;
     margin-left: 100px;
+   
 }
 
 .title-destination{
@@ -94,7 +95,7 @@ strong{
     opacity: 0.3;
 }
 
-.image-moon{
+.image-mars{
     width: 350px;
     margin-left: 100px;
     padding: 20px;
@@ -109,7 +110,6 @@ strong{
 .nav-planets{
     display: flex;
 }
-
 .list-planets{
     display: flex;
     gap: 30px;
@@ -122,13 +122,15 @@ strong{
 }
 
 
-.moon-information{
+
+
+.mars-information{
     display: flex;
     flex-direction: column;
 }
 
 
-.title-moon{
+.title-mars{
     font-family: 'Prata', serif;
     font-size: 70px;
     letter-spacing: 4px;
@@ -136,7 +138,8 @@ strong{
     margin-top: 40px;
 }
 
-.paragraph-moon{
+
+.paragraph-mars{
    
     font-family: "Roboto Condensed", serif;
     width: 100%;
@@ -148,8 +151,7 @@ strong{
   
 }
 
-
-.hr-moon{
+.hr-mars{
     opacity: 0.5;
 }
 
@@ -174,4 +176,8 @@ strong{
     margin-top: 10px;
     font-family: 'Prata', serif;
     letter-spacing: 4px;
+}
+
+.icon-hamburger{
+    display: none;
 }

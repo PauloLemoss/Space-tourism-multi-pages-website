@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/background-technology-desktop.jpg);
+    background-image: url(../../images/background-destination-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,8 +7,9 @@ body{
     height: 100vh;
     width: 100%;
     color: white;
-    overflow: hidden; 
+    overflow: hidden;
 }
+
 .header{
     display: flex;
     gap: 40px;
@@ -70,108 +71,106 @@ body{
     color: white;
 }
 
-.section-capsule{
+.section-titan{
+    display: flex;
+
+}
+
+.container-titan{
     display: flex;
     flex-direction: column;
     padding: 25px;
+    gap: 40px;
     margin-left: 100px;
 }
 
-.title-spacecapsule{
+.title-destination{
     font-family: 'Prata', serif;
-    letter-spacing: 4px;  
-       margin-bottom: 70px;
-       font-size: 16px;
+    letter-spacing: 4px;
 }
 
-.strong-title-capsule{
+strong{
     opacity: 0.3;
 }
 
-.container-alignment{
+.image-titan{
+    width: 350px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.destination-planets{
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.nav-planets{
+    display: flex;
+}
+
+.list-planets{
+    display: flex;
+    gap: 30px;
+}
+
+.moon,.mars,.europa,.titan{
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    font-size: 14px;
 }
 
 
-
-.list-numbers{
+.titan-information{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    text-align: center;
-    font-size: 30px;
+}
+
+
+.title-titan{
+    font-family: 'Prata', serif;
+    font-size: 70px;
+    letter-spacing: 4px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.paragraph-titan{
+   
+    font-family: "Roboto Condensed", serif;
+    width: 100%;
+    max-width: 370px;
+    line-height: 25px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-bottom: 20px;
   
 }
 
-.list-numbers li{
-    display: flex;
-    justify-content: center;
+
+.hr-titan{
+    opacity: 0.5;
 }
 
-
-
-.list-numbers a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    border: 1px solid white;
-    padding: 10px;
-    text-decoration: none;
-    color: white; 
-    font-weight: bold;
-    transition: 0.3s; 
-}
-
-
-.description-capsule{
-    display: flex;
-   
-}
-
-.description-alignment{
+.container-travel-distance{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    margin-top: 20px;
+    
 }
 
-.title-terminology{
+.distance-travel{
+    display: flex;
+    justify-content: space-between;
     font-family: "Roboto Condensed", serif;
-    letter-spacing: 4px;
-    font-size: 12px;  
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
-.title-capsule{
+
+.distance-travel-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
     font-family: 'Prata', serif;
     letter-spacing: 4px;
-    font-size: 35px;
-}
-
-.paragraph-capsule{
-    width: 100%;
-    max-width:439px;
-    
-    font-family: "Roboto Condensed", serif;
-    line-height: 30px;
-    opacity: 0.6;
-}
-
-.image-capsule{
-    width: 400px;
-    margin-left: 150px;
-     margin-top: -80px;
-}
-
-
-.number-1:hover,.number-2:hover, .number-3:hover{
-    color: black;
-    background-color: white;
-}
-
-.icon-hamburger{
-    display: none;
 }

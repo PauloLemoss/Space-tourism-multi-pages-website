@@ -4,24 +4,28 @@ document.querySelectorAll('.list-menu a').forEach(link => {
 
         const pageName = link.textContent.replace(/[0-9]/g, '').trim().toLowerCase();
         let pageUrl = "";
+        
 
         switch (pageName) {
             case 'home':
-                pageUrl = 'index.html';
+                pageUrl = '/index.html';
                 break;
             case 'destination':
-                pageUrl = 'moon.html';
+                pageUrl = '/src/pages/destination/moon.html';
                 break;
             case 'crew':
-                pageUrl = 'pilot.html';
+                pageUrl = '/src/pages/crew/pilot.html';
                 break;
             case 'technology':
-                pageUrl = 'technology.html';
+                pageUrl = '/src/pages/technology/technology.html';
                 break;
             default:
                 console.log("Page not found");
                 return;
         }
+
+       
+    
 
         console.log(`Redirecting to: ${pageUrl}`);
         window.location.href = pageUrl;

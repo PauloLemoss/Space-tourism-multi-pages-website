@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/background-crew-desktop.jpg);
+    background-image: url(../../images/background-destination-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,77 +72,107 @@ body{
 }
 
 
-.section-engineer{
-   display: flex;
-   flex-direction: column;
-   padding: 25px;
-   margin-left: 100px;
-   
+.section-europa{
+    display: flex;
+
 }
 
+.container-europa{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 40px;
+    margin-left: 100px;
+}
 
-.title-engineer{
+.title-destination{
     font-family: 'Prata', serif;
     letter-spacing: 4px;
-       margin-bottom: 70px;
-       font-size: 16px;
 }
+
 strong{
     opacity: 0.3;
 }
 
-.information-engineer{
-   display: flex;
+.image-europa{
+    width: 350px;
+    margin-left: 100px;
+    padding: 20px;
 }
 
-.description-people{
+.destination-planets{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.nav-planets{
+    display: flex;
+}
+
+.list-planets{
+    display: flex;
+    gap: 30px;
+}
+
+.moon,.mars,.europa,.titan{
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.europa-information{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-europa{
+    font-family: 'Prata', serif;
+    font-size: 70px;
+    letter-spacing: 4px;
+    padding: 10px;
     margin-top: 40px;
 }
 
-.title-position{
+.paragraph-europa{
+   
     font-family: "Roboto Condensed", serif;
-    letter-spacing: 2px;
-    opacity: 0.3;
+    width: 100%;
+    max-width: 390px;
+    line-height: 25px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
 }
 
-.name-engineer{
+
+.hr-moon{
+    opacity: 0.5;
+}
+
+.container-travel-distance{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.distance-travel{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto Condensed", serif;
+    opacity: 0.7;
+}
+
+
+.distance-travel-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
     font-family: 'Prata', serif;
     letter-spacing: 4px;
-    font-size: 30px;
-}
-
-.description-engineer{
-    font-family: "Roboto Condensed", serif;
-
-    opacity: 0.6;
-    width: 100%;
-    max-width: 370px;
-    line-height: 25px;
-    
- 
-}
-
-.dot {
-    width: 10px;  
-    height: 10px;
-    background-color: gray; 
-    border-radius: 50%; 
-    border: none;
-    cursor: pointer;
-    margin: 5px; 
-  }
-  
-  .dot.active {
-    background-color: white; /* Quando ativo */
-  }
-
-.image-people{
-    width: 400px;
-    margin-left: 200px;
-    margin-top: -80px;
 }
 
 .icon-hamburger{
